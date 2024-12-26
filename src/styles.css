@@ -1,0 +1,53 @@
+.App {
+  height: 100vh;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(188, 188, 98);
+}
+
+.count-btn {
+  background-color: rgb(239, 239, 12);
+  padding: 0.3rem;
+  margin-bottom: 0.5rem;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+}
+.steps-btn {
+  background-color: rgb(207, 154, 31);
+  padding: 0.3rem;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+}
+.count-text {
+  font-size: 1.3rem;
+}
+.date-text {
+  font-size: 1.2rem;
+}
+.container {
+  padding: 2.5rem;
+  background-color: chartreuse;
+  width: 20rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 0.6rem;
+}
+.reset-btn {
+  background-color: rgb(60, 47, 0);
+  color: white;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: 4rem;
+}
+.reset-btn:hover {
+  background-color: white;
+  color: rgb(111, 50, 4);
+}
